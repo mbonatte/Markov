@@ -1,5 +1,6 @@
 import numpy as np
 import math
+from scipy.optimize import minimize
 
 def numberTransitions(df,worst,best):
     nStates = abs(best-worst)+1 #Number of Condition States (CS) an asset can be
