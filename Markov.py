@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 def numberTransitions(df,worst,best):
     nStates = abs(best-worst)+1 #Number of Condition States (CS) an asset can be
