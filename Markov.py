@@ -140,4 +140,4 @@ def stdEC(deltaT, Q,worst=1,best=5):
             if (worst < best):
                 var += ((best-j)- mean)**2 *p
         stdEC.append(var**0.5)
-  return stdEC
+    return stdEC
